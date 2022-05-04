@@ -21,12 +21,12 @@ class TapReporter implements Reporter {
     onTestEnd(test: TestCase, result: TestResult): void {
         switch(result.status) {
             case 'passed':
-                console.log('ok');
+                console.log(`ok - ${test.title}`);
                 break;
             case 'failed':
-                console.log(`not ok # ${test.title}`);
+                console.log(`not ok - ${test.title}`);
             default:
-                console.log(`not ok # ${result.status} : ${test.title}`);
+                console.log(`not ok - ${result.status} : ${test.title}`);
         }
     }
 }
