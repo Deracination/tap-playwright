@@ -2,7 +2,7 @@
   "name": "tap-reporter",
   "version": "1.0.0",
   "description": "TAP reporter for playwright",
-  "main": "tap-reporter.ts",
+  "main": "src/tap-reporter.ts",
   "author": "Chris Hutchinson",
   "license": "MIT",
   "dependencies": {
