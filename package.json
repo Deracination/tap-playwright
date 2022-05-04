@@ -2,16 +2,16 @@
   "name": "tap-reporter",
   "version": "1.0.1",
   "description": "TAP reporter for playwright",
-  "module": "lib/tap-reporter.js",
+  "main": "dist/tap-reporter.js",
   "author": "Chris Hutchinson",
   "license": "MIT",
   "dependencies": {
-    "@playwright/test": "^1.21.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.21.1",
     "typescript": "^4.6.4"
   },
   "scripts": {
-    "compile": "tsc -p tsconfig.json"
+    "compile": "tsc"
   }
 }

@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * TAP (test-anything-protocol) reporter for Playwright tests
  * allows running and reporting tests via 'prove'
@@ -24,4 +26,4 @@ class TapReporter {
         }
     }
 }
-export default TapReporter;
+exports.default = TapReporter;
