@@ -22,9 +22,7 @@ class TapReporter implements Reporter {
         switch(result.status) {
             case 'passed':
                 console.log(`ok - ${test.title}`);
-                break;
-            case 'failed':
-                console.log(`not ok - ${test.title}`);
+                break;            
             default:
                 console.log(`not ok - ${result.status} : ${test.title}`);
         }
